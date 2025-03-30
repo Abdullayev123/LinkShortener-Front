@@ -1,8 +1,7 @@
-import { ClipboardCopy } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const URL = "http://localhost:8000/";
+const URL = "https://linkshortener-back.onrender.com/";
 
 const Home = () => {
   const [originalUrl, setOriginalUrl] = useState<string>("");
